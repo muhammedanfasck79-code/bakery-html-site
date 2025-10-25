@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sweet Crumbs Bakery</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+    }
+    h1, h2, h3 {
+      font-family: 'Playfair Display', serif;
+    }
+  </style>
+</head>
+<body class="bg-amber-50 text-gray-800">
+
+  <!-- Navbar -->
+  <header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+    <div class="max-w-7xl mx-auto flex items-center justify-between px-6 py-4">
+      <h1 class="text-2xl font-semibold text-amber-700">Sweet Crumbs</h1>
+      <nav class="space-x-6 text-gray-600 font-medium">
+        <a href="#home" class="hover:text-amber-700">Home</a>
+        <a href="#menu" class="hover:text-amber-700">Menu</a>
+        <a href="#about" class="hover:text-amber-700">About</a>
+        <a href="#contact" class="hover:text-amber-700">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="pt-24 bg-[url('https://images.unsplash.com/photo-1607082349566-1873421b94e7?auto=format&fit=crop&w=1400&q=80')] bg-cover bg-center h-[90vh] flex items-center justify-center relative">
+    <div class="absolute inset-0 bg-black/40"></div>
+    <div class="relative z-10 text-center text-white px-6">
+      <h2 class="text-5xl md:text-6xl font-bold mb-4">Freshly Baked Happiness</h2>
+      <p class="text-lg md:text-xl mb-6">Delight in every bite with our artisan breads, cakes, and pastries.</p>
+      <a href="#menu" class="bg-amber-600 hover:bg-amber-700 text-white px-6 py-3 rounded-md text-lg font-medium transition">View Our Menu</a>
+    </div>
+  </section>
+
+  <!-- Menu Section -->
+  <section id="menu" class="py-20 max-w-7xl mx-auto px-6">
+    <h2 class="text-4xl font-semibold text-center mb-10 text-amber-700">Our Favorites</h2>
+    <div class="grid md:grid-cols-3 gap-10">
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1608198093002-ad4e005484b7?auto=format&fit=crop&w=800&q=80" alt="Croissant" class="w-full h-56 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-semibold text-amber-700 mb-2">Butter Croissant</h3>
+          <p class="text-gray-600">Flaky, golden, and made with real butter — a perfect morning treat.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1587248720329-1d1c4d0e4b37?auto=format&fit=crop&w=800&q=80" alt="Cupcake" class="w-full h-56 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-semibold text-amber-700 mb-2">Vanilla Cupcake</h3>
+          <p class="text-gray-600">Soft and moist cupcakes topped with creamy vanilla frosting.</p>
+        </div>
+      </div>
+      <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+        <img src="https://images.unsplash.com/photo-1617196034796-73dfa7b6eab3?auto=format&fit=crop&w=800&q=80" alt="Bread" class="w-full h-56 object-cover">
+        <div class="p-6 text-center">
+          <h3 class="text-xl font-semibold text-amber-700 mb-2">Artisan Bread</h3>
+          <p class="text-gray-600">Handcrafted loaves baked to golden perfection every morning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="bg-amber-100 py-20">
+    <div class="max-w-6xl mx-auto px-6 md:flex items-center gap-10">
+      <img src="https://images.unsplash.com/photo-1541976076758-347942db1979?auto=format&fit=crop&w=800&q=80" alt="Bakery Interior" class="rounded-lg shadow-lg md:w-1/2 mb-8 md:mb-0">
+      <div>
+        <h2 class="text-4xl font-semibold text-amber-700 mb-4">Baked with Love Since 1998</h2>
+        <p class="text-gray-700 mb-4">At Sweet Crumbs, we believe baking is an art form. Every loaf, cake, and pastry is crafted by hand using only the finest ingredients.</p>
+        <p class="text-gray-700">From our ovens to your table, our mission is to bring warmth, comfort, and a little sweetness to your day.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-20 max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-4xl font-semibold text-amber-700 mb-6">Get in Touch</h2>
+    <p class="text-gray-700 mb-10">Have questions or custom orders? We’d love to hear from you!</p>
+    <a href="mailto:hello@sweetcrumbs.com" class="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 rounded-md text-lg font-medium transition">Email Us</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-amber-700 text-white py-6 text-center">
+    <p>&copy; 2025 Sweet Crumbs Bakery. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
